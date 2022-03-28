@@ -25,4 +25,6 @@ g++的常用参数说明:
 -L 指定库路径，如-L.表示库路径为当前目录
 -l (小写L)指定库名，如-lc表示引用libc.so
 
+# eigen tutorial
+https://docs.huihoo.com/eigen/3/GettingStarted.html
 ```
