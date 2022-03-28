@@ -1,4 +1,6 @@
-int main()
-{	
-	return 1;
+# include <iostream>
+
+int main() {
+    std::cout << "hello world.";
+    return 0;
 }
