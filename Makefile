@@ -1,8 +1,10 @@
 
 CC=g++
-CC_OPTIONS=-Wall
-# -I /Users/yiche/dev/lib_c/eigen-3.4.0/Eigen/
-
+CC_OPTIONS=-Wall -std=c++11 -I /Users/yiche/dev/lib_c/eigen-3.4.0/Eigen/
+#
+# -Wc++11-extensions  标准使用c++11 即可
+test:
+	@echo 2:$(null):2
 all:clean
 	${CC} ${CC_OPTIONS} a.cc -o a
 	${CC} ${CC_OPTIONS} eigen.cc -o eigen

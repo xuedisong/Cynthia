@@ -28,3 +28,12 @@ g++的常用参数说明:
 # eigen tutorial
 https://docs.huihoo.com/eigen/3/GettingStarted.html
 ```
+```
+# g++ 编译选项
+-L/dir -la 要放在-o选项后面， 在/dir下找liba.so 或者是 liba.a。如果在默认位置/usr/local/lib，则不用查找。
+g++ -o fm a.o 
+g++ -o fm a.cc
+总的来说，-o就是生成文件的名称，至于要链接的是源文件还是编译后的文件都可以。
+
+$@--目标文件，$^--所有的依赖文件，$<--第一个依赖文件。
+```
