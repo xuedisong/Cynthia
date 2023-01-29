@@ -2,3 +2,4 @@ a
 eigen
 *.out
 .idea
+.vscode
