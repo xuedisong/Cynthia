@@ -5,14 +5,18 @@
 #include <iostream>
 
 using namespace std;
-vector<int> *p = new vector<int>();
+
 
 void input(vector<int> *p1) {
-    string i;
+    int i;
     cin >> i;
-    cout << i;
+    p1->push_back(i);
 }
 
 int main() {
+    vector<int> *p = new(nothrow)vector<int>();
     input(p);
+    cout << p->front() << ',' << p->back();
+    delete p;
+    p = nullptr;
 }
