@@ -9,6 +9,7 @@ all:clean
 	${CC} ${CC_OPTIONS} a.cc -o a
 	${CC} ${CC_OPTIONS} eigen.cc -o eigen
 	${CC} ${CC_OPTIONS} lc2315StatStar.cpp lc1138Board.cpp -o lc2315StatStar
+	${CC} ${CC_OPTIONS} Like.cpp -o Like
 
 clean:
 	rm -rf a
