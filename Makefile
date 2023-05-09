@@ -16,6 +16,7 @@ clean:
 	rm -rf a
 	rm -rf a.out
 	rm -rf eigen
+	rm -rf FeatureImportance
 
 run_a:all
 	./a
